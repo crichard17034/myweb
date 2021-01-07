@@ -1,0 +1,285 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+h1
+{
+	color: #AAFA91;
+	padding: 10px 0 10px 0;
+	margin: 2px 10px 3px 0;
+	border-style:outset;
+	border-width: 5px;
+	text-align: center;
+	line-height: 1em;
+	font-size: 45px;
+	background-color: #672CCE;
+	border-color: #89F666;
+}
+
+h2
+{
+	color: #AAFA91;
+	clear: both;
+	margin: 10px 0 8px 0;
+}
+h3
+{
+	clear: both;
+	margin: 0 0 10px 0;
+}
+
+h4
+{
+	clear: both;
+	margin: 0 0 10px 10px;
+}
+
+h5
+{
+	color: #DDCBFC;
+}
+	
+p
+{
+	padding: 5px 0 0 4px;
+	margin: 10px 0 10px 7px;
+	color: #DDCBFC;
+}
+
+ul
+{
+	padding-top:5px;
+}
+
+ol li
+{
+	list-style-type: none;
+	padding-top: 5px;
+	clear: both;
+	margin: 0 0 5px 10px;
+}
+
+img
+{
+	border-style: outset;
+	border-width: 3px;
+	border-color: #AAFA91;
+}
+
+body
+{
+	background-image: url(../images/purple_tile.png);
+	background-attachment: fixed;
+	background-color: #4A15A4;
+}
+
+#container
+{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #9D6FEC;
+}
+
+header
+{
+	height: 75px;
+	width: 950px;
+	padding: 15px 0 0 0;
+	background-color: #9D6FEC;
+	color: #DDCBFC;
+	margin: 10px;
+	
+}
+
+nav
+{
+	width: 912px;
+	background-color: #672CCE;
+	padding: 10px;
+	margin: 0 10px 10px 10px;
+	border-style: outset;
+	border-width: 4px;
+	border-color: #89F666;
+}
+
+nav ul li
+{
+	display: inline;
+	list-style-type: none;
+	padding: 0 30px 0 16px;
+}
+
+nav ul li a:link
+{
+	color: #AAFA91;
+	text-decoration: none;
+}
+
+nav ul li a:visited
+{
+	color: #AAFA91;
+	text-decoration: none;
+}
+
+nav ul li a:hover
+{
+	color: #89F666;
+	text-decoration: none;
+}
+
+nav ul li a:active
+{
+	color: #4FE81E;
+	text-decoration: none;
+}
+aside
+{
+	height: 850px;
+	width: 246px;
+	margin: 0 10px 10px 0px;
+	padding: 10px;
+	background-color: #824CE0;
+	color: #DDCBFC;
+	border-style: outset;
+	border-width: 4px;
+	border-color: #89F666;
+	float: right;
+}
+
+aside p
+{
+	clear: both;
+}
+
+aside ul li
+{
+	margin: 10px 10px 10px 13px;
+	clear: both;
+}
+
+aside img
+{
+	float: left;
+	margin: 6px 0 12px 9px;
+}
+
+section
+{
+	height: 850px;
+	width: 630px;
+	margin: 0 0 10px 10px;
+	padding: 10px;
+	background-color: #824CE0;
+	color: #DDCBFC;
+	border-style: outset;
+	border-width: 4px;
+	border-color: #89F666;
+	float: left;
+}
+
+section.game
+{
+	height: 1100px;
+	width: 912px;
+}
+
+section img
+{
+	float: left;
+	margin: 7px 10px;
+	clear: both;
+}
+
+section ul li
+{
+	margin: 10px 10px 20px 13px;
+	list-style: none;
+}
+
+section p
+{
+	text-indent: 3em;
+}
+
+section p a:link
+{
+	color:#4A15A4;
+	text-decoration: none;
+}
+
+section p a:visited
+{
+	color: #BA97F5;
+	text-decoration: none;
+}
+
+section p a:hover
+{
+	color: #DDCBFC;
+	text-decoration: none;
+}
+
+section p a:active
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+footer
+{
+	width: 932px;
+	background-color: #672CCE;
+	margin: 10px 0 10px 0;
+	padding: 10px;
+	clear: both;
+	border-style: outset;
+	border-width: 4px;
+	border-color: #89F666;
+}
+
+table
+{
+	border: solid 2px black;
+	border-collapse: collapse;
+	background-color: #672CCE;
+}
+	
+tr, td, th
+{
+	border: solid 3px #89F666;
+	padding: 7px;
+	width: 250px;
+	text-align:center;
+	vertical-align: middle;
+}
+
+th
+{
+	background-color:#4A15A4;
+}
+
+tr:hover
+{
+	color: white;
+	background-color:#9D6FEC;
+}
+
+caption
+{
+	caption-side: top;
+	font-weight: bold;
+	margin: 5px;
+}
+
+iframe
+{
+	margin: 17px 7px 10px 26px;
+}
+.centerText
+{
+	text-align: center;
+	text-indent: 0em;
+}
