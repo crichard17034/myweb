@@ -289,3 +289,33 @@ iframe.unity
 	text-align: center;
 	text-indent: 0em;
 }
+
+aside h3 a
+{
+	padding: 10px 1px 7px 2px;
+	margin: 0px 4px 4px 4px;
+}
+
+aside h3 a:link
+{
+	color: #AAFA91;
+	text-decoration: none;
+}
+
+aside h3 a:visited
+{
+	color: #AAFA91;
+	text-decoration: none;
+}
+
+aside h3 a:hover
+{
+	color: #89F666;
+	text-decoration: none;
+}
+
+aside h3 a:active
+{
+	color: #4FE81E;
+	text-decoration: none;
+}
