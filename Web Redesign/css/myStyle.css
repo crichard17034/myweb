@@ -284,16 +284,16 @@ iframe.unity
 	margin: 17px 7px 10px 45px;
 }
 
+iframe.video
+{
+	float: left;
+	margin: 6px 0px 0px 0px;
+}
+
 .centerText
 {
 	text-align: center;
 	text-indent: 0em;
-}
-
-aside h3 a
-{
-	padding: 10px 1px 7px 2px;
-	margin: 0px 4px 4px 4px;
 }
 
 aside h3 a:link
@@ -318,4 +318,11 @@ aside h3 a:active
 {
 	color: #4FE81E;
 	text-decoration: none;
+}
+
+.centerLink
+{
+	margin: 7px 0px 6px 4px;
+	padding:7px 0px 0px 0px;
+	text-align: center;
 }
