@@ -112,25 +112,25 @@ nav ul li
 	padding: 0 30px 0 16px;
 }
 
-nav ul li a:link
+nav ul li a:link, aside h3 a:link, section ol li a:link, aside ol li a:link
 {
 	color: #AAFA91;
 	text-decoration: none;
 }
 
-nav ul li a:visited
+nav ul li a:visited, aside h3 a:visited, section ol li a:visited, aside ol li a:visited
 {
 	color: #AAFA91;
 	text-decoration: none;
 }
 
-nav ul li a:hover
+nav ul li a:hover, aside h3 a:hover, section ol li a:hover, aside ol li a:hover
 {
 	color: #89F666;
 	text-decoration: none;
 }
 
-nav ul li a:active
+nav ul li a:active, aside h3 a:active, section ol li a:active, aside ol li a:active
 {
 	color: #4FE81E;
 	text-decoration: none;
@@ -228,6 +228,12 @@ section p a:active
 	text-decoration: none;
 }
 
+section ul li
+{
+	margin: 10px 10px 20px 13px;
+	list-style: none;
+}
+
 footer
 {
 	width: 932px;
@@ -284,6 +290,11 @@ iframe.unity
 	margin: 17px 7px 10px 45px;
 }
 
+iframe.treasureTrek
+{
+	margin: 17px 0px 10px 0px;
+}
+
 iframe.video
 {
 	float: left;
@@ -294,30 +305,6 @@ iframe.video
 {
 	text-align: center;
 	text-indent: 0em;
-}
-
-aside h3 a:link
-{
-	color: #AAFA91;
-	text-decoration: none;
-}
-
-aside h3 a:visited
-{
-	color: #AAFA91;
-	text-decoration: none;
-}
-
-aside h3 a:hover
-{
-	color: #89F666;
-	text-decoration: none;
-}
-
-aside h3 a:active
-{
-	color: #4FE81E;
-	text-decoration: none;
 }
 
 .centerLink
